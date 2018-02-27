@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Никита Демченко](https://up.htmlacademy.ru/htmlcss/20/user/491209).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Рубец](https://htmlacademy.ru/profile/amator).
 
 ---
 
