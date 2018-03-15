@@ -265,7 +265,7 @@ a {
   line-height: 24px;
 }
 
-.popular-goods-title {
+.popular-title {
   background-color: #f9f5f0;
 }
 
@@ -336,4 +336,8 @@ a {
 .product-btn-add-bookmarks:active {
   color: rgba(50, 66, 92, 0.3);
   border-color: rgba(50, 66, 92, 0.3);
+}
+
+.brands-item {
+  border: 1px solid #eaeaea;
 }
