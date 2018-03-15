@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', "Arial", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
   color: #000000;
@@ -92,9 +92,9 @@ a {
   background-color: #161d29;
 }
 
-.header-cart-active,
-.header-cart-active:hover,
-.header-cart-active:active {
+.header-cart-full,
+.header-cart-full:hover,
+.header-cart-full:active {
   background-color: #ee3643;
 }
 
@@ -263,4 +263,77 @@ a {
 .promo-slider p {
   font-size: 18px;
   line-height: 24px;
+}
+
+.popular-goods-title {
+  background-color: #f9f5f0;
+}
+
+.popular-goods-title h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.product-cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product-card {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+  border: 1px solid #eaeaea;
+}
+
+.product-title {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.product-old-price {
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.product-price {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.product-btn {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.product-btn-buy {
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.product-btn-buy:hover {
+  background-color: #5fbb2d;
+}
+
+.product-btn-buy:active {
+  background-color: #518534;
+}
+
+.product-btn-add-bookmarks {
+  color: #32425c;
+  border: 3px solid #63a63e;
+}
+
+.product-btn-add-bookmarks:hover {
+  border-color: #32425c;
+}
+
+.product-btn-add-bookmarks:active {
+  color: rgba(50, 66, 92, 0.3);
+  border-color: rgba(50, 66, 92, 0.3);
 }
