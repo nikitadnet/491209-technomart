@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Cuprum', "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
   color: #000000;
@@ -22,6 +22,22 @@ a {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ee3643;
+}
+
+.btn:hover {
+  background-color: #ca2c37;
+}
+
+.btn:active {
+  background-color: #ba2732;
 }
 
 .main-header {
@@ -178,4 +194,73 @@ a {
 .main-nav-link:active {
   color: rgba(255, 255, 255, 0.5);
   background-color: #1d2739;
+}
+
+.promo-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.promo-link {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.promo-link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.promo-link:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.promo-materials {
+  background-color: #ffbf47;
+}
+
+.promo-tool {
+  background-color: #3bbce3;
+}
+
+.promo-equipment {
+  background-color: #dc91d8;
+}
+
+.promo-discounts {
+  background-color: #8ed78f;
+}
+
+.promo-delivery {
+  background-color: #ffc047;
+}
+
+.promo-slider {
+  color: #ffffff;
+}
+
+.promo-slide-first {
+  background-color: #685c53;
+  background-image: url(../img/slider-drill.jpg);
+  background-repeat: no-repeat;
+}
+
+.promo-slide-second {
+  background-color: #685c53;
+  background-image: url(../img/slider-perforator.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider-title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo-slider p {
+  font-size: 18px;
+  line-height: 24px;
 }
