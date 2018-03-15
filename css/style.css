@@ -6,4 +6,176 @@ body {
   font-size: 17px;
   line-height: 17px;
   color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #f3f7f9;
+}
+
+.header-top-wrap {
+  background-color: #293449;
+}
+
+.header-top-wrap a {
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.header-logo {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #ee3643;
+}
+
+.header-logo:hover {
+  background-color: #ca2c37;
+}
+
+.header-logo:active {
+  background-color: #ba2732;
+}
+
+.header-search input {
+  background-color: #293449;
+  border: 0;
+}
+
+.header-search input:hover {
+  background-color: #212a3a;
+}
+
+.header-search input:focus {
+  background-color: #ffffff;
+}
+
+.header-bookmarks:hover,
+.header-cart:hover {
+  background-color: #212a3a;
+}
+
+.header-bookmarks:active,
+.header-cart:active {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #161d29;
+}
+
+.header-cart-active,
+.header-cart-active:hover,
+.header-cart-active:active {
+  background-color: #ee3643;
+}
+
+.header-checkout {
+  background-color: #63a63e;
+}
+
+.header-checkout:hover {
+  background-color: #5fbb2d;
+}
+
+.header-checkout:active {
+  color: rgba(255, 255, 255, 0.51);
+  background-color: #518534;
+}
+
+.header-description {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.header-info a {
+  font-size: 21px;
+  font-size: 21px;
+  color: #e9292a;
+  border: 3px solid #ffffff;
+}
+
+.header-info p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.user-button {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.user-button:hover {
+  color: #ee3643;
+}
+
+.user-button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-name {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.user-name:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-exit-button {
+  background-color: #ffffff;
+}
+
+.user-panel-link {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.user-panel-link:hover {
+  color: #ee3643;
+}
+
+.user-panel-link:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.main-nav-items {
+  list-style: none;
+}
+
+.main-nav-link {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.main-nav-link:hover {
+  background-color: #293449;
+}
+
+.main-nav-link:active {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
 }
