@@ -404,3 +404,19 @@ a {
   background-image: url(../img/credit-background.png);
   background-repeat: no-repeat;
 }
+
+.info-title {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.info-block p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.info-list li {
+  font-size: 18px;
+  line-height: 22px;
+}
