@@ -535,3 +535,30 @@ a {
   color: #ee3643;
   text-decoration: none;
 }
+
+.write-us-modal-form label {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.write-us-modal-form input {
+  border: 2px solid #dee3e4;
+}
+
+.write-us-modal-form textarea {
+  border: 2px solid #dee3e4;
+}
+
+.submit-wrap {
+  background-color: #f4f4f4;
+}
+
+.write-us-modal-form input[type="submit"] {
+  border: none;
+}
+
+.map-popup {
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-color: #eeeae3;
+}
