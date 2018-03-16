@@ -67,18 +67,18 @@
   </header>
   <main>
     <div class="breadcrumbs">
-      <ul>
-        <li>
-          <a href="#" class="breadcrumbs-home-icon">Home</a>
+      <ul class="breadcrumbs-items">
+        <li class="breadcrumbs-item">
+          <a href="index.html" class="breadcrumbs-link breadcrumbs-home-icon">Home</a>
         </li>
-        <li>
-          <a href="#">Каталог</a>
+        <li class="breadcrumbs-item">
+          <a href="#" class="breadcrumbs-link">Каталог</a>
         </li>
-        <li>
-          <a href="#">Инструмент</a>
+        <li class="breadcrumbs-item">
+          <a href="#" class="breadcrumbs-link">Инструмент</a>
         </li>
-        <li>
-          <a href="#">Перфораторы</a>
+        <li class="breadcrumbs-item">
+          <a href="#" class="breadcrumbs-link">Перфораторы</a>
         </li>
       </ul>
     </div>
@@ -91,8 +91,8 @@
           <div class="scale">
             <div class="bar"></div>
           </div>
-          <div class="toggle toggle-min"></div>
-          <div class="toggle toggle-max"></div>
+          <div class="toggle toggle-min">0</div>
+          <div class="toggle toggle-max">30000</div>
         </div>
         <fieldset class="catalog-form-manufacturers-group">
           <legend>Производители:</legend>
@@ -127,11 +127,11 @@
     <div class="right-catalog-content">
       <div class="catalog-sort">
         <span>Сортировка:</span>
-        <a href="#">По цене</a>
-        <a href="#">По типу</a>
-        <a href="#">По функкционалу</a>
-        <a href="#">top</a>
-        <a href="#">down</a>
+        <a href="#" class="catalog-sort-link active-sort">По цене</a>
+        <a href="#" class="catalog-sort-link">По типу</a>
+        <a href="#" class="catalog-sort-link">По функкционалу</a>
+        <a href="#" class="catalog-sort-link active-sort">top</a>
+        <a href="#" class="catalog-sort-link">down</a>
       </div>
       <ul class="product-cards">
         <li class="product-card">
@@ -231,11 +231,19 @@
         </li>
       </ul>
       <div class="pagination">
-        <ul>
-          <li><a href="#" class="pagination-active-page">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">Следующая</a></li>
+        <ul class="pagination-items">
+          <li class="pagination-item">
+            <a href="#" class="pagination-link pagination-link-active">1</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="pagination-link">2</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="pagination-link">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="pagination-link">Следующая</a>
+          </li>
         </ul>
       </div>
     </div>
