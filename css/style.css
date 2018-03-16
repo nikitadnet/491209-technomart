@@ -341,3 +341,66 @@ a {
 .brands-item {
   border: 1px solid #eaeaea;
 }
+
+.service {
+  background-color: #f4f8f9;
+}
+
+.service-title {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.service-description {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.service-tabs {
+  list-style: none;
+}
+
+.service-tab-link {
+  font-size: 21px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #32425c;
+}
+
+.service-tab-link:hover {
+  background-color: #293449;
+}
+
+.service-tab-link-active {
+  color: #32425c;
+  background-color: #ffffff;
+}
+
+.service-slide h3 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+
+.service-slide p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.service-delivery {
+  background-image: url(../img/delivery-background.png);
+  background-repeat: no-repeat;
+}
+
+.service-guarantee {
+  background-image: url(../img/guarantee-background.png);
+  background-repeat: no-repeat;
+}
+
+.service-credit {
+  background-image: url(../img/credit-background.png);
+  background-repeat: no-repeat;
+}
