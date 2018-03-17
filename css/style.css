@@ -439,21 +439,32 @@ a {
 }
 
 .service {
+  padding-top: 63px;
   background-color: #f4f8f9;
 }
 
 .service-title {
+  margin: 0;
   font-size: 30px;
   line-height: 30px;
 }
 
 .service-description {
+  margin-bottom: 75px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
 
+.service-slider {
+  display: flex;
+  justify-content: space-between;
+}
+
 .service-tabs {
+  width: 240px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -474,6 +485,10 @@ a {
   background-color: #ffffff;
 }
 
+.service-slide {
+  width: 620px;
+}
+
 .service-slide h3 {
   font-size: 36px;
   line-height: 36px;
@@ -492,11 +507,13 @@ a {
 }
 
 .service-guarantee {
+  display: none;
   background-image: url(../img/guarantee-background.png);
   background-repeat: no-repeat;
 }
 
 .service-credit {
+  display: none;
   background-image: url(../img/credit-background.png);
   background-repeat: no-repeat;
 }
