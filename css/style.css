@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -46,6 +52,7 @@ a {
 
 .header-top-wrap {
   background-color: #293449;
+  margin-bottom: 45px;
 }
 
 .header-top-wrap a {
@@ -53,7 +60,13 @@ a {
   color: #ffffff;
 }
 
+.header-top-flex-wrap {
+  display: flex;
+  min-height: 42px;
+}
+
 .header-logo {
+  width: 220px;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
@@ -68,6 +81,10 @@ a {
   background-color: #ba2732;
 }
 
+.header-search {
+  width: 270px;
+}
+
 .header-search input {
   background-color: #293449;
   border: 0;
@@ -79,6 +96,12 @@ a {
 
 .header-search input:focus {
   background-color: #ffffff;
+}
+
+.header-bookmarks,
+.header-cart,
+.header-checkout {
+  width: 150px;
 }
 
 .header-bookmarks:hover,
@@ -111,11 +134,22 @@ a {
   background-color: #518534;
 }
 
+.header-middle-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-description {
+  margin: 0;
+  width: 300px;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
   color: #ee3643;
+}
+
+.header-info {
+  width: 300px;
 }
 
 .header-info a {
@@ -129,6 +163,10 @@ a {
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
+}
+
+.header-user-panel {
+  width: 300px;
 }
 
 .user-button {
