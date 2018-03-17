@@ -759,6 +759,19 @@ a {
   background-color: #f2f6f8;
 }
 
+.catalog-content-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-catalog-content {
+  width: 220px;
+}
+
+.right-catalog-content {
+  width: 700px;
+}
+
 .filter p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -795,6 +808,7 @@ a {
 }
 
 .catalog-sort {
+  margin-bottom: 20px;
   background-color: #f7f3ec;
 }
 
@@ -846,11 +860,13 @@ a {
 }
 
 .catalog-description h2 {
+  margin: 0;
   font-size: 30px;
   line-height: 30px;
 }
 
 .catalog-description p {
+  margin: 0;
   font-size: 13px;
   line-height: 24px;
 }
