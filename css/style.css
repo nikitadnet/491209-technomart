@@ -339,22 +339,34 @@ a {
 }
 
 .popular-title {
+  display: flex;
+  margin-bottom: 20px;
   background-color: #f9f5f0;
 }
 
-.popular-goods-title h2 {
+.popular-title h2 {
+  margin: 0;
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
 }
 
+.popular-title a {
+  margin-left: auto;
+}
+
 .product-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .product-card {
+  width: 220px;
+  margin-bottom: 20px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -411,7 +423,18 @@ a {
   border-color: rgba(50, 66, 92, 0.3);
 }
 
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .brands-item {
+  width: 218px;
+  margin-bottom: 20px;
   border: 1px solid #eaeaea;
 }
 
