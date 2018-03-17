@@ -709,6 +709,10 @@ a {
   text-decoration: none;
 }
 
+.write-us-modal {
+  display: none;
+}
+
 .write-us-modal-form label {
   font-size: 18px;
   line-height: 18px;
@@ -731,6 +735,7 @@ a {
 }
 
 .map-popup {
+  display: none;
   background-image: url(../img/map.jpg);
   background-repeat: no-repeat;
   background-color: #eeeae3;
@@ -848,4 +853,8 @@ a {
 .catalog-description p {
   font-size: 13px;
   line-height: 24px;
+}
+
+.cart-popup {
+  display: none;
 }
