@@ -47,12 +47,13 @@ a {
 }
 
 .main-header {
+  margin-bottom: 60px;
   background-color: #f3f7f9;
 }
 
 .header-top-wrap {
-  background-color: #293449;
   margin-bottom: 45px;
+  background-color: #293449;
 }
 
 .header-top-wrap a {
@@ -234,6 +235,35 @@ a {
   background-color: #1d2739;
 }
 
+.promo-flex-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-left-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 620px;
+
+}
+
+.promo-right-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.promo-item {
+  width: 300px;
+  min-height: 123px;
+  margin-bottom: 20px;
+}
+
+.promo-item:first-child {
+  margin-right: 20px;
+}
+
 .promo-title {
   font-size: 24px;
   line-height: 30px;
@@ -278,22 +308,27 @@ a {
 }
 
 .promo-slider {
+  width: 620px;
+
   color: #ffffff;
 }
 
 .promo-slide-first {
+  min-height: 266px;
   background-color: #685c53;
   background-image: url(../img/slider-drill.jpg);
   background-repeat: no-repeat;
 }
 
 .promo-slide-second {
+  display: none;
   background-color: #685c53;
   background-image: url(../img/slider-perforator.jpg);
   background-repeat: no-repeat;
 }
 
 .slider-title {
+  margin: 0;
   font-size: 36px;
   line-height: 36px;
 }
