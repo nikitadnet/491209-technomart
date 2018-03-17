@@ -518,7 +518,25 @@ a {
   background-repeat: no-repeat;
 }
 
+.info-block {
+  padding-top: 75px;
+}
+
+.info-block-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-left {
+  width: 540px;
+}
+
+.info-right {
+  width: 300px;
+}
+
 .info-title {
+  margin: 0;
   font-size: 30px;
   line-height: 30px;
 }
