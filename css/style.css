@@ -48,6 +48,7 @@ a {
 
 .main-header {
   margin-bottom: 60px;
+  padding-bottom: 60px;
   background-color: #f3f7f9;
 }
 
@@ -240,14 +241,18 @@ a {
 .header-middle-wrap {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 39px;
 }
 
 .header-description {
+  width: 210px;
   margin: 0;
-  width: 300px;
+  padding: 4px 39px 0 51px;
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
+  font-weight: 400;
+  text-align: left;
   color: #ee3643;
 }
 
@@ -256,13 +261,22 @@ a {
 }
 
 .header-info a {
+  display: block;
+  width: 145px;
+  margin-bottom: 5px;
+  padding: 10px 50px 8px 71px;
   font-size: 21px;
-  font-size: 21px;
+  line-height: 21px;
   color: #e9292a;
+  background-image: url(../img/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position: 12px 11px;
   border: 3px solid #ffffff;
 }
 
 .header-info p {
+  margin: 0;
+  padding-left: 10px;
   font-size: 14px;
   line-height: 24px;
   color: #32425c;
@@ -273,6 +287,9 @@ a {
 }
 
 .user-button {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 13px 0 11px 0;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -285,6 +302,36 @@ a {
 
 .user-button:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.header-login {
+  position: relative;
+  width: 121px;
+  margin-left: 19px;
+  margin-right: 5px;
+  padding-left: 47px;
+  padding-right: 27px;
+}
+
+.header-login::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/icon-login.svg);
+  opacity: 0.3;
+}
+
+.header-login:hover::before {
+  opacity: 1;
+}
+
+.header-registration {
+  width: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .user-name {
@@ -318,14 +365,40 @@ a {
 }
 
 .main-nav-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  min-width: 940px;
+  min-height: 55px;
   list-style: none;
+  background-color: #32425c;
+  box-shadow: 0 5px 0 0 #293449;
+}
+
+.main-nav-item {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 0 0 #293449;
 }
 
 .main-nav-link {
+  padding: 19px 30px;
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
   background-color: #32425c;
+  box-shadow: 0 5px 0 0 #293449;
+}
+
+.main-nav-link-first {
+  padding-left: 52px;
+}
+
+.main-nav-link-last {
+  padding-right: 55px;
 }
 
 .main-nav-link:hover {
@@ -335,6 +408,7 @@ a {
 .main-nav-link:active {
   color: rgba(255, 255, 255, 0.5);
   background-color: #1d2739;
+  box-shadow: 0 5px 0 0 #1d2739;
 }
 
 .promo-flex-wrap {
@@ -347,7 +421,6 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
   width: 620px;
-
 }
 
 .promo-right-wrap {
