@@ -35,6 +35,7 @@ a {
   line-height: 24px;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
   background-color: #ee3643;
 }
 
@@ -364,7 +365,6 @@ a {
   color: rgba(50, 66, 92, 0.3);
 }
 
-
 .main-nav-items {
   display: flex;
   justify-content: space-around;
@@ -509,33 +509,49 @@ a {
 
 .promo-slider {
   width: 620px;
-
   color: #ffffff;
 }
 
-.promo-slide-first {
-  min-height: 266px;
-  background-color: #685c53;
-  background-image: url(../img/slider-drill.jpg);
-  background-repeat: no-repeat;
+.promo-slide {
+  padding: 23px 0 22px 25px;
 }
 
-.promo-slide-second {
+.promo-slide-first {
   display: none;
   background-color: #685c53;
   background-image: url(../img/slider-perforator.jpg);
   background-repeat: no-repeat;
 }
 
-.slider-title {
-  margin: 0;
-  font-size: 36px;
-  line-height: 36px;
+.promo-slide-second {
+  background-color: #685c53;
+  background-image: url(../img/slider-drill.jpg);
+  background-repeat: no-repeat;
 }
 
-.promo-slider p {
+.slider-title {
+  margin: 0;
+  margin-bottom: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.promo-slide p {
+  margin: 0;
+  margin-bottom: 121px;
   font-size: 18px;
   line-height: 24px;
+}
+
+.promo-slider-btn {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 195px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
 }
 
 .popular-title {
