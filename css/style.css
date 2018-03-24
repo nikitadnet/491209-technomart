@@ -714,6 +714,10 @@ a {
   box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
+.popular-brands {
+  margin-bottom: 85px;
+}
+
 .popular-brands-title {
   display: flex;
   justify-content: space-between;
@@ -768,41 +772,57 @@ a {
 }
 
 .service {
-  padding-top: 63px;
+  padding-top: 41px;
   background-color: #f4f8f9;
 }
 
 .service-title {
   margin: 0;
+  margin-bottom: 26px;
   font-size: 30px;
+  font-weight: 400;
   line-height: 30px;
+  text-transform: uppercase;
 }
 
 .service-description {
-  margin-bottom: 75px;
+  margin: 0;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .service-slider {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  min-height: 285px;
+  padding-top: 69px;
 }
 
 .service-tabs {
+  display: flex;
+  flex-direction: column;
   width: 240px;
+  min-height: 182px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .service-tab-link {
+  display: block;
+  padding: 15px 0 15px 23px;
   font-size: 21px;
   line-height: 30px;
   color: #ffffff;
   font-weight: 700;
   background-color: #32425c;
+  border-top: 1px solid #4d637b;
+}
+
+.service-tab-link:first-child {
+  border: none;
 }
 
 .service-tab-link:hover {
@@ -816,15 +836,21 @@ a {
 
 .service-slide {
   width: 620px;
+  padding-left: 80px;
 }
 
 .service-slide h3 {
+  margin: 0;
+  margin-bottom: 23px;
   font-size: 36px;
   line-height: 36px;
+  text-transform: uppercase;
   color: #32425c;
 }
 
 .service-slide p {
+  width: 275px;
+  padding-right: 35px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -833,18 +859,30 @@ a {
 .service-delivery {
   background-image: url(../img/delivery-background.png);
   background-repeat: no-repeat;
+  background-position: 231px 23px;
 }
 
 .service-guarantee {
   display: none;
   background-image: url(../img/guarantee-background.png);
   background-repeat: no-repeat;
+  background-position: 261px 23px;
 }
 
 .service-credit {
   display: none;
   background-image: url(../img/credit-background.png);
   background-repeat: no-repeat;
+  background-position: 231px 23px;
+}
+
+.service-slide-btn {
+  box-sizing: border-box;
+  display: block;
+  width: 195px;
+  padding: 10px 0;
+  border-radius: 3px;
+
 }
 
 .info-block {
