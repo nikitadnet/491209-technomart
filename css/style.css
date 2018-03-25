@@ -367,7 +367,7 @@ a {
 
 .main-nav-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -382,7 +382,6 @@ a {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  box-shadow: 0 5px 0 0 #293449;
 }
 
 .main-nav-link {
@@ -391,14 +390,15 @@ a {
   line-height: 17px;
   color: #ffffff;
   background-color: #32425c;
-  box-shadow: 0 5px 0 0 #293449;
+
 }
 
-.main-nav-link-first {
+.main-nav-item:first-child a {
   padding-left: 52px;
+  padding-right: 35px;
 }
 
-.main-nav-link-last {
+.main-nav-item:last-child a  {
   padding-right: 55px;
 }
 
