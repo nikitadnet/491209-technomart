@@ -826,12 +826,22 @@ a {
 }
 
 .service-tab-link:hover {
+  color: #fffff;
   background-color: #293449;
 }
 
 .service-tab-link-active {
   color: #32425c;
   background-color: #ffffff;
+}
+
+.service-tab-link-active:hover {
+  color: #ffffff;
+}
+
+.service-tab-link:hover {
+  color: #fffff;
+  background-color: #293449;
 }
 
 .service-slide {
@@ -882,16 +892,17 @@ a {
   width: 195px;
   padding: 10px 0;
   border-radius: 3px;
-
 }
 
 .info-block {
-  padding-top: 75px;
+  padding-top: 78px;
+  padding-bottom: 86px;
 }
 
 .info-block-wrap {
   display: flex;
   justify-content: space-between;
+  p
 }
 
 .info-left {
@@ -904,19 +915,78 @@ a {
 
 .info-title {
   margin: 0;
+  margin-bottom: 26px;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .info-block p {
+  margin: 0;
+  margin-bottom: 25px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-weight: 400;
+}
+
+.info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .info-list li {
+  position: relative;
+  margin-top: -7px;
+  margin-bottom: 25px;
+  padding-left: 35px;
   font-size: 18px;
   line-height: 22px;
+}
+
+.info-list li::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+}
+
+.info-btn {
+  box-sizing: border-box;
+  display: block;
+  width: 220px;
+  margin-top: 35px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.info-right p {
+  width: 180px;
+  margin-bottom: 31px;
+}
+
+.info-right img {
+  width: 300px;
+  height: 158px;
+  margin-bottom: 37px;
+}
+
+.info-open-modal-btn {
+  box-sizing: border-box;
+  display: block;
+  width: 300px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 3px;
 }
 
 .main-footer {
