@@ -1328,15 +1328,47 @@ a {
   background-color: #eeeae3;
 }
 
+.inner-page {
+  margin-top: -38px;
+}
+
+.breadcrumbs {
+
+}
+
 .breadcrumbs-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
 .breadcrumbs-link {
+  margin-right: 40px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  text-transform: uppercase;
   color: #000000;
+}
+
+.breadcrumbs-item::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 15px;
+  width: 7px;
+  height: 12px;
+  background-image: url(../img/icon-right-small.svg);
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-item:last-child::before {
+  display: none;
 }
 
 .catalog-title {
