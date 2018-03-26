@@ -340,8 +340,12 @@ a {
   fill: #c5c5c5;
 }
 
-.header-login:hover  svg {
+.header-login:hover svg {
   fill: #32425c;
+}
+
+.header-login:active svg {
+  fill: #c5c5c5;
 }
 
 .header-registration {
@@ -350,26 +354,75 @@ a {
   padding-right: 25px;
 }
 
-.user-name {
+.user-profile {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 13px 0 11px 48px;
+  margin-bottom: 8px;
   font-size: 21px;
   line-height: 21px;
+  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
 }
 
-.user-name:active {
+.user-profile svg {
+  fill: #c5c5c5;
+}
+
+.user-profile svg:first-child {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
+.user-profile svg:last-child {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+
+.user-profile:hover svg{
+  fill: #32425c;
+}
+
+.user-profile:active svg{
+  fill: #c5c5c5;
+}
+
+.user-profile:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.user-exit-button {
-  background-color: #ffffff;
-}
-
 .user-panel-link {
+  position: relative;
+  margin-right: 28px;
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
+}
+
+.user-panel-link:first-child {
+  margin-left: 19px;
+}
+
+.user-panel-link::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: -19px;
+  width: 4px;
+  height: 4px;
+  background-color: #32425c;
+  border-radius: 50%;
+}
+
+.user-panel-link:last-child::before {
+  display: none;
 }
 
 .user-panel-link:hover {
@@ -405,7 +458,6 @@ a {
   line-height: 17px;
   color: #ffffff;
   background-color: #32425c;
-
 }
 
 .main-nav-item:first-child a {
