@@ -104,41 +104,64 @@
     <div class="catalog-content-wrap">
       <div class="left-catalog-content">
         <form action="catalog.html" method="post" class="catalog-form">
-          <div class="filter">
-            <p>Фильтр:</p>
-            <span>Цена:</span>
-            <div class="scale">
-              <div class="bar"></div>
+          <p class="filter">Фильтр:</p>
+          <fieldset class="filter-price">
+            <legend>Цена:</legend>
+            <div class="range-filter">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="range-price min-price">
+                  <input name="min-price" type="text" value="0">
+                </label>
+                <label class="range-price max-price">
+                  <input name="max-price" type="text" value="30000">
+                </label>
+              </div>
             </div>
-            <div class="toggle toggle-min">0</div>
-            <div class="toggle toggle-max">30000</div>
-          </div>
-          <fieldset class="catalog-form-manufacturers-group">
-            <legend>Производители:</legend>
-            <label>
-              <input type="checkbox" name="manufacturers-bosch" value="Bosch" checked> Bosch
-            </label>
-            <label>
-              <input type="checkbox" name="manufacturers-interskol" value="Интерскол"> Интерскол
-            </label>
-            <label>
-              <input type="checkbox" name="manufacturers-makita" value="Makita" checked> Makita
-            </label>
-            <label>
-              <input type="checkbox" name="manufacturers-dewalt" value="Dewalt"> Dewalt
-            </label>
-            <label>
-              <input type="checkbox" name="manufacturers-hitachi" value="Hitachi"> Hitachi
-            </label>
           </fieldset>
-          <fieldset class="catalog-form-power-group">
+          <fieldset class="filter-manufacturers">
+            <legend>Производители:</legend>
+            <ul>
+              <li class="filter-option">
+                <input type="checkbox" name="manufacturers-bosch" value="Bosch" checked class="visually-hidden filter-input filter-input-checkbox" id="filter-bosh">
+                <label for="filter-bosh">Bosch</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="manufacturers-interskol" value="Интерскол" class="visually-hidden filter-input filter-input-checkbox" id="filter-inter">
+                <label for="filter-inter">Интерскол</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="manufacturers-makita" value="Makita" checked class="visually-hidden filter-input filter-input-checkbox" id="filter-makita">
+                <label for="filter-makita">Makita</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="manufacturers-dewalt" value="Dewalt" class="visually-hidden filter-input filter-input-checkbox" id="filter-dewalt">
+                <label for="filter-dewalt">Dewalt</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="manufacturers-hitachi" value="Hitachi" class="visually-hidden filter-input filter-input-checkbox" id="filter-hitachi">
+                <label for="filter-hitachi">Hitachi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-power">
             <legend>Питание:</legend>
-            <label>
-              <input type="radio" name="power-radio" value="Аккумуляторные" checked> Аккумуляторные
-            </label>
-            <label>
-              <input type="radio" name="power-radio" value="Сетевые" checked> Сетевые
-            </label>
+            <ul>
+              <li class="filter-option">
+                <input type="radio" name="power-radio" value="Аккумуляторные" checked class="visually-hidden filter-input filter-input-radio" id="radio-battery">
+                <label for="radio-battery">Аккумуляторные</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="power-radio" value="Сетевые" class="visually-hidden filter-input filter-input-radio" id="radio-network">
+                <label for="radio-network">Сетевые</label>
+              </li>
+            </ul>
           </fieldset>
           <input type="submit" name="catalog-form-submit" value="Показать">
         </form>
