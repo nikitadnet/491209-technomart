@@ -681,7 +681,7 @@ a {
   width: 218px;
   height: 88px;
   padding:40px 0;
-  background-color:rgba(255,255,255);
+  background-color: rgba(255, 255, 255, 1);
   z-index:10;
 }
 
@@ -868,6 +868,7 @@ a {
 }
 
 .service-tabs {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -875,6 +876,16 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.service-tabs::after {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 10px;
+  height: 272px;
+  background-image: url(../img/slide-shadow.png);
 }
 
 .service-tab-link {
@@ -888,7 +899,7 @@ a {
   border-top: 1px solid #4d637b;
 }
 
-.service-tab-link:first-child {
+.service-tab:first-child a {
   border: none;
 }
 
