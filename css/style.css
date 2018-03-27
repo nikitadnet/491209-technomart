@@ -1370,13 +1370,13 @@ a {
 }
 
 .write-us-modal {
+  display: none;
   position: fixed;
+  z-index: 50;
   top: 200px;
   left: calc(50% - 310px);
   width: 620px;
   padding-top: 45px;
-  /* padding-left: 80px;
-  padding-right: 80px; */
   background-color: #ffffff;
   border-top: 7px solid #ff5257;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
@@ -1478,6 +1478,7 @@ a {
   line-height: 18px;
   color: #a9a9a9;
   border: 2px solid #dee3e4;
+  resize: none;
 }
 
 .write-us-modal-form textarea:hover {
@@ -1508,9 +1509,26 @@ a {
 
 .map-popup {
   display: none;
-  background-image: url(../img/map.jpg);
-  background-repeat: no-repeat;
+  position: fixed;
+  width: 940px;
+  left: calc(50% - 470px);
+  bottom: 355px;
+
   background-color: #eeeae3;
+  box-shadow: 0 0 16px 4px rgba(47, 42, 43, 0.5);
+}
+
+.map-popup-close {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 21px;
+  height: 21px;
+  font-size: 0;
+  border: 0;
+  background-color: rgba(255,255,255, 0.01);
+  background-image: url(../img/form-2.svg);
+  cursor: pointer;
 }
 
 .inner-page {
@@ -1968,4 +1986,8 @@ a {
 
 .cart-popup {
   display: none;
+}
+
+.modal-show {
+  display: block;
 }
