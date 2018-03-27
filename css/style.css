@@ -744,6 +744,10 @@ a {
   line-height: 20px;
 }
 
+.product-title span {
+  text-transform: uppercase;
+}
+
 .product-discount {
   margin: 0;
   margin-left: 2px;
