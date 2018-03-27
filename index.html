@@ -374,14 +374,20 @@
   </footer>
 
   <div class="write-us-modal">
-    <button type="button" name="write-us-modal-close">Закрыть</button>
+    <button type="button" name="write-us-modal-close" class="write-us-modal-close">Закрыть</button>
     <form action="index.html" method="post" class="write-us-modal-form">
-      <label for="write-us-modal-form-name">Ваше имя:</label>
-      <input type="text" name="write-us-modal-form-name" value="" placeholder="Представьтесь, пожалуйста" id="write-us-modal-form-name">
-      <label for="write-us-modal-form-email">Ваш e-mail:</label>
-      <input type="email" name="write-us-modal-form-email" value="" placeholder="Для отправки ответа">
-      <label for="write-us-modal-form-textarea">Текст письма:</label>
-      <textarea name="name" rows="8" cols="80">В свободной форме</textarea>
+      <p>
+        <label for="write-us-modal-form-name">Ваше имя:</label>
+        <input type="text" name="write-us-modal-form-name" value="" placeholder="Представьтесь, пожалуйста" id="write-us-modal-form-name">
+      </p>
+      <p>
+        <label for="write-us-modal-form-email">Ваш e-mail:</label>
+        <input type="text" name="write-us-modal-form-email" value="" placeholder="Для отправки ответа">
+      </p>
+      <div class="text-area-wrap">
+        <label for="write-us-modal-form-textarea">Текст письма:</label>
+        <textarea name="name" rows="5" cols="70">В свободной форме</textarea>
+      </div>
       <div class="submit-wrap">
         <input type="submit" name="write-us-modal-form-submit" value="Отправить" class="btn">
       </div>
