@@ -579,6 +579,7 @@ a {
 }
 
 .promo-slider {
+  position: relative;
   width: 620px;
   color: #ffffff;
 }
@@ -624,6 +625,57 @@ a {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  border-radius: 3px;
+}
+
+.promo-slider-controls label {
+  width: 10px;
+  height: 10px;
+  background-color: #fdfdfd;
+  border-radius: 50%;
+}
+
+.slider-control-first-slide {
+  position: absolute;
+  left: 295px;
+  bottom: 36px;
+}
+
+.promo-slider-controls input:checked + label::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: #ee3643;
+  border-radius: 50%;
+}
+
+.slider-control-second-slide {
+  position: absolute;
+  left: 315px;
+  bottom: 36px;
+}
+
+.arrow-left::after {
+  content: '';
+  position: absolute;
+  top: 115px;
+  left: 25px;
+  width: 22px;
+  height: 40px;
+  background-image: url(../img/icon-left.svg);
+}
+
+.arrow-right::after {
+  content: '';
+  position: absolute;
+  top: 115px;
+  right: 20px;
+  width: 22px;
+  height: 40px;
+  background-image: url(../img/icon-right.svg);
 }
 
 .popular-goods-title {
