@@ -714,9 +714,14 @@ a {
 }
 
 .product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   width: 218px;
+  min-height: 314px;
   margin-bottom: 20px;
+  padding-bottom: 4px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -791,6 +796,7 @@ a {
 
 .product-title {
   margin: 10px 0 11px 0;
+  margin-bottom: auto;
   padding: 0 25px;
   font-size: 18px;
   line-height: 20px;
