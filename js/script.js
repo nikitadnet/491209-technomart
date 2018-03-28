@@ -18,9 +18,9 @@ closeWriteUsModal.addEventListener("click", function (evt) {
 openMapModal.addEventListener("click", function (evt) {
   evt.preventDefault();
   mapModal.classList.add("modal-show");
-})
+});
 
 closeMapModal.addEventListener("click", function (evt) {
   evt.preventDefault();
   mapModal.classList.remove("modal-show");
-})
+});

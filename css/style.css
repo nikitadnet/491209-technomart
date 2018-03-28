@@ -1538,6 +1538,12 @@ a {
   cursor: pointer;
 }
 
+.map-popup iframe {
+  width: 940px;
+  height: 447px;
+  border: 0;
+}
+
 .inner-page {
   margin-top: -39px;
 }
