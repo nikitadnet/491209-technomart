@@ -819,6 +819,7 @@ a {
   margin-bottom: 10px;
   text-decoration: line-through;
   color: #a9a9a9;
+  cursor: pointer;
 }
 
 .product-price {
@@ -829,6 +830,7 @@ a {
   color: #ffffff;
   background-color: #ee3643;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .product-price:after {
