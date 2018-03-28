@@ -177,8 +177,6 @@ a {
   fill: #ef4350;
 }
 
-
-
 .header-bookmarks {
   position: relative;
   box-sizing: border-box;
@@ -359,7 +357,7 @@ a {
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
-  width: 300px;
+  width: 240px;
   padding: 13px 0 11px 48px;
   margin-bottom: 8px;
   font-size: 21px;
@@ -370,30 +368,39 @@ a {
 }
 
 .user-profile svg {
-  fill: #c5c5c5;
-}
-
-.user-profile svg:first-child {
   position: absolute;
   top: 14px;
   left: 14px;
-}
-
-.user-profile svg:last-child {
-  position: absolute;
-  top: 15px;
-  right: 10px;
-}
-
-.user-profile:hover svg{
-  fill: #32425c;
-}
-
-.user-profile:active svg{
   fill: #c5c5c5;
 }
 
-.user-profile:active {
+.user-exit {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  margin-left: -5px;
+  margin-bottom: 8px;
+  padding: 15px 0 10px 30px;
+  background-color: #ffffff;
+}
+
+.user-exit svg {
+  fill: #c5c5c5;
+}
+
+.user-profile:hover svg,
+.user-exit:hover svg {
+  fill: #32425c;
+}
+
+.user-profile:active svg,
+.user-exit:active svg{
+  fill: #c5c5c5;
+}
+
+.user-profile:active,
+.user-exit {
   color: rgba(0, 0, 0, 0.3);
 }
 
