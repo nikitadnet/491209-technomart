@@ -509,6 +509,7 @@ a {
 }
 
 .promo-item {
+  position: relative;
   width: 277px;
   margin-bottom: 20px;
   padding: 21px 0 22px 23px;
@@ -728,7 +729,7 @@ a {
   width: 218px;
   min-height: 314px;
   margin-bottom: 20px;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -797,9 +798,12 @@ a {
 }
 
 .product-img {
-  width: 218px;
-  height: 168px;
+  width: 184px;
+  height: 164px;
+  padding-left: 17px;
 }
+
+
 
 .product-title {
   margin: 10px 0 11px 0;
@@ -825,7 +829,7 @@ a {
 .product-price {
   position: relative;
   width: 80px;
-  margin: 0 0 20px 42px;
+  margin: 0 0 18px 42px;
   padding: 10px 30px;
   color: #ffffff;
   background-color: #ee3643;
@@ -1850,7 +1854,7 @@ a {
 .catalog-sort {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   padding: 10px 0 10px 0;
   background-color: #f7f3ec;
 }
