@@ -63,6 +63,9 @@ a {
 }
 
 .header-top-flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 
@@ -257,6 +260,9 @@ a {
 }
 
 .header-middle-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   margin-bottom: 39px;
@@ -307,6 +313,7 @@ a {
 .user-button {
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: middle;
   padding: 13px 0 11px 0;
   font-size: 21px;
   line-height: 21px;
@@ -441,6 +448,9 @@ a {
 }
 
 .main-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -454,6 +464,9 @@ a {
 }
 
 .main-nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -473,6 +486,7 @@ a {
 }
 
 .main-nav-item:last-child a  {
+  padding-left: 28px;
   padding-right: 55px;
 }
 
@@ -491,11 +505,17 @@ a {
 }
 
 .promo-flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
 
 .promo-left-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -503,6 +523,9 @@ a {
 }
 
 .promo-right-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -531,6 +554,7 @@ a {
 .promo-link {
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: middle;
   width: 135px;
   margin-left: 2px;
   padding: 10px 0;
@@ -628,6 +652,7 @@ a {
 .promo-slider-btn {
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: middle;
   width: 195px;
   padding: 10px 0;
   font-size: 14px;
@@ -687,6 +712,9 @@ a {
 }
 
 .popular-goods-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -713,6 +741,9 @@ a {
 }
 
 .product-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -722,6 +753,9 @@ a {
 }
 
 .product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -809,6 +843,7 @@ a {
   margin: 10px 0 11px 0;
   margin-bottom: auto;
   padding: 0 25px;
+  width: 157px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -861,6 +896,9 @@ a {
 }
 
 .popular-brands-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -887,6 +925,9 @@ a {
 }
 
 .brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -936,6 +977,9 @@ a {
 }
 
 .service-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
   min-height: 285px;
@@ -944,6 +988,9 @@ a {
 
 .service-tabs {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -1053,6 +1100,9 @@ a {
 }
 
 .info-block-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
@@ -1146,6 +1196,9 @@ a {
 }
 
 .footer-top-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -1167,6 +1220,9 @@ a {
 }
 
 .footer-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   width: 560px;
@@ -1201,6 +1257,9 @@ a {
 }
 
 .footer-middle-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
@@ -1220,6 +1279,9 @@ a {
 }
 
 .footer-bottom-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   width: 540px;
@@ -1258,6 +1320,9 @@ a {
 }
 
 .footer-bottom-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
 }
@@ -1276,6 +1341,9 @@ a {
 }
 
 .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   width: 160px;
@@ -1409,6 +1477,9 @@ a {
 }
 
 .write-us-modal-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
 }
@@ -1559,6 +1630,9 @@ a {
 }
 
 .breadcrumbs-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   margin: 0;
   padding: 0;
@@ -1606,6 +1680,9 @@ a {
 }
 
 .catalog-content-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
 }
@@ -1799,6 +1876,10 @@ a {
   background-position: 0 0;
 }
 
+.filter-input-checkbox:focus + label {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
 .filter-power {
   margin: 0;
   margin-bottom: 57px;
@@ -1837,6 +1918,12 @@ a {
   background-image: url(../img/radio-on.svg);
 }
 
+.filter-input-radio:focus + label {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
 .catalog-form input[type="submit"] {
   box-sizing: border-box;
   width: 140px;
@@ -1852,6 +1939,9 @@ a {
 }
 
 .catalog-sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 19px;
@@ -1942,6 +2032,9 @@ a {
 }
 
 .pagination-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
   min-height: 38px;
