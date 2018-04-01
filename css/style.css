@@ -803,8 +803,6 @@ a {
   padding-left: 17px;
 }
 
-
-
 .product-title {
   margin: 10px 0 11px 0;
   margin-bottom: auto;
@@ -1934,16 +1932,17 @@ a {
 }
 
 .product-cards-inner-page {
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 
 .pagination {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .pagination-items {
   display: flex;
   flex-wrap: wrap;
+  min-height: 38px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1952,7 +1951,7 @@ a {
 .pagination-link {
   box-sizing: border-box;
   margin-right: 10px;
-  padding: 10px 15px;
+  padding: 10px 15px 9px 14px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -1974,7 +1973,7 @@ a {
 .pagination-link-active {
   color: #ffffff;
   background-color: #ee3643;
-  border: none;
+  border-color: #ee3643;
 }
 
 .pagination-item:last-child a {
@@ -1983,7 +1982,7 @@ a {
 }
 
 .catalog-description {
-  padding: 73px 0 67px 0;
+  padding: 65px 0 67px 0;
   background-color: #f2f6f8;
 }
 
