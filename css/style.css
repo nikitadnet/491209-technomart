@@ -725,6 +725,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   width: 218px;
   min-height: 314px;
@@ -799,8 +800,9 @@ a {
 
 .product-img {
   width: 184px;
-  height: 164px;
-  padding-left: 17px;
+  height: 129px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .product-title {
@@ -827,7 +829,7 @@ a {
 .product-price {
   position: relative;
   width: 80px;
-  margin: 0 0 18px 42px;
+  margin: 0 0 18px 7px;
   padding: 10px 30px;
   color: #ffffff;
   background-color: #ee3643;
